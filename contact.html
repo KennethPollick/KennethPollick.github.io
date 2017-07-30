@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<!---------------------------------------------
+ -AUTHOR:   Kenneth Pollick
+ -DATE:     2017-7-30
+---------------------------------------------->
+
+<html>
+<head>
+    <title>Kenneth Pollick Software - Contact</title>
+    <style>
+    #body {
+        text-align: center;
+    }
+    </style>
+</head>
+
+
+
+<body>
+<!-- Site Header -->
+<div id="header">
+    <span id="company-name" class="header">Kenneth Pollick Software</span>
+    <br>
+    <div id="intrasite-links" class="header">
+        <span id="home" class="intrasite-links"><a id="home" class="intrasite-link" href="index.html">Home</a></span>
+        <span id="software" class="intrasite-links"><a id="software" class="intrasite-link" href="software.html">Software</a></span>
+        <span id="about" class="intrasite-links"><a id="about" class="intrasite-link" href="about.html">About</a></span>
+        <span id="contact" class="intrasite-links"><a id="contact" class="intrasite-link" href="contact.html">Contact</a></span>
+    </div>
+</div>
+
+
+
+<!-- Page-specific Body -->
+<div id="body">
+    <form id="contact-form" class="body" method="post" action="contact_form.php">
+        <fieldset>
+            <legend>Send Message</legend>
+            Name:<br>
+            <input type="text" name="name" maxlength="30" form="contact-form" required autofocus /><br>
+            E-mail:<br>
+            <input type="email" name="email" form="contact-form" required /><br>
+            Message:<br>
+            <textarea id="message-area" class="contact-form" name="message" form="contact-form" required></textarea><br><br>
+            <input type="reset" value="Clear">
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+</div>
+
+
+
+<!-- Site Footer -->
+<div id="footer">
+    <span id="top" class="footer">Last Modified: 2017-7-30</span>
+</div>
+</body>
+
+</html>
