@@ -9,8 +9,18 @@
 <head>
     <title>Kenneth Pollick Software - Contact</title>
     <style>
-    #body {
+    body {
         text-align: center;
+    }
+
+    #email {
+        margin-left: 4em;
+    }
+    #phone-number {
+        margin-left: 4em;
+    }
+    #desc {
+        margin-left: 4em;
     }
     </style>
 </head>
@@ -29,28 +39,22 @@
         <span id="contact" class="intrasite-links"><a id="contact" class="intrasite-link" href="contact.html">Contact</a></span>
     </div>
 </div>
+<hr>
 
 
 
 <!-- Page-specific Body -->
 <div id="body">
-    <form id="contact-form" class="body" method="post" action="contact_form.php">
-        <fieldset>
-            <legend>Send Message</legend>
-            Name:<br>
-            <input type="text" name="name" maxlength="30" form="contact-form" required autofocus /><br>
-            E-mail:<br>
-            <input type="email" name="email" form="contact-form" required /><br>
-            Message:<br>
-            <textarea id="message-area" class="contact-form" name="message" form="contact-form" required></textarea><br><br>
-            <input type="reset" value="Clear">
-            <input type="submit" value="Submit">
-        </fieldset>
-    </form>
+    <span id="title" class="body">Contact Information:</span>
+    <br>
+    <span id="email" class="body"><a href="mailto:kennethpollick@gmail.com?Subject=KennethPollickSoftware">kennethpollick@gmail.com</a><br><span id="desc" class="email">- for any feedback or contact about my software projects</span></span>
+    <br>
+    <span id="phone-number" class="body">+1-412-628-7653<br><span id="desc" class="phone-number">- please only contact me here if you need urgent help with any of my software or it's after 6 pm EST in the day</span></span>
 </div>
 
 
 
+<hr>
 <!-- Site Footer -->
 <div id="footer">
     <span id="top" class="footer">Last Modified: 2017-7-30</span>
