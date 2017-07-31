@@ -1,0 +1,23 @@
+ChangeLog for Initiative Tracker (By Kenneth Pollick)
+
+
+PLANNED UPDATES
+    +adding more stats, probably
+    +adding a diplay of each character's stats
+    +adding RPG Conditions
+    +adding a way to change each character's stats (for damage, buffs, conditions, et cetera)
+    +adding all the file features
+
+
+v1.4    2017-7-22
+    ~fixed bug were changing view while in combat would crash (SegFault)
+v1.3    2017-7-22
+    +added the help menu
+v1.2    2017-7-21
+    +added ability to move selected character(s) up in the initiative list (press UP key)
+    +added ability to move selected character(s) down in the initiative list (press DOWN key)
+v1.1    2017-7-20
+    +added messagebox to warn you that initiative can't be advanced when there are no combatants
+    ~fixed bug where adding a new character while in Colour Coded view mode would display as Black
+    ~fixed bug where you could only select one character by mouse
+v1.0    2017-7-18
