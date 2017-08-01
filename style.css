@@ -9,3 +9,9 @@
 #footer {
     text-align: center;
 }
+
+a {
+    color: blue;
+    background-color: #FF00FF;
+    text-decoration: none;
+}
