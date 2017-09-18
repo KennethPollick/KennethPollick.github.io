@@ -9,6 +9,9 @@ PLANNED UPDATES
     +adding all the file features
 
 
+v1.5    2017-9-17
+    +added a messagebox to tell you what all the characters in the initiative list rolled
+    +added a check for the bounds of the screen to help screens 1600x900 and smaller
 v1.4    2017-7-22
     ~fixed bug were changing view while in combat would crash (SegFault)
 v1.3    2017-7-22
